@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgba(24, 26, 24, 1);
+}
+.wrapper {
+    height: 100vh;
+}
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+    height: 80px;
+    width: 100%;
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    line-height: 40px;
+    display: inline-block;
+    width: 80px;
+    padding:20px ;
+    text-align: center;
+}
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: red;
+    border-radius: 2px;
+}
+.navbar #youth {
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin:15px 0px 10px 10px ;
+    float: left;
+    text-transform: capitalize;
+    font-family: 'Robota', sans-serif;
+}
+.wrapper .center {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.center h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.center h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.center .buttons {
+    margin: 35px 180px;
+}
+.buttons button {
+    height: 50px;
+    width: 180px;
+    margin: 10px;
+    margin-top: -5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: red;
+    color: #ffb3b3;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 25px;
+    transition: .4s;
+}
+.buttons button:hover {
+    background: #cc0000;
+}
